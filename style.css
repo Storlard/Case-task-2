@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+
+    background: linear-gradient(135deg, #667eea, #764ba2);
+}
+
+.container {
+    text-align: center;
+}
+
+#result {
+    font-size: 60px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: red;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.button button {
+    font-size: 24px;
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+    background: linear-gradient(135deg, #ff7e5f, #feb47b);
+}
+
+.button button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+#message {
+    margin-top: 15px;
+    font-size: 18px;
+    color: white;
+}
